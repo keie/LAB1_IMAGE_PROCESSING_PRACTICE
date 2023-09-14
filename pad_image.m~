@@ -1,0 +1,8 @@
+function [PAD] = pad_image(varargin)
+    [I,border_size] = varargin
+    [height, width, ch] = size(I);
+    
+    if ch == 1
+        TH = I
+    else
+end
